@@ -55,14 +55,14 @@ Answer the following questions below:
     - **Naming:** Variable names should be consistent in order.
 
 
-```js
+     ```js
 
-      async function getUsers() {
-        const elie = await $.getJSON('https://api.github.com/users/elie');
-        const joel = await $.getJSON('https://api.github.com/users/joelburton');
-        const matt = await $.getJSON('https://api.github.com/users/mmmaaatttttt');
+          async function getUsers() {
+            const elie = await $.getJSON('https://api.github.com/users/elie');
+            const joel = await $.getJSON('https://api.github.com/users/joelburton');
+            const matt = await $.getJSON('https://api.github.com/users/mmmaaatttttt');
 
-        return [elie, matt, joel];
-      }
+            return [elie, matt, joel];
+          }
 
-```
+     ```

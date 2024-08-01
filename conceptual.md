@@ -50,6 +50,10 @@ Answer the following questions below:
 
 - What are some issues with the following code? (consider all aspects: performance, structure, naming, etc)
 
+    - **Performance:** The requests are made sequentially. Using Promise.all can make them concurrent and faster.
+    - **Structure:** The order of returned users is inconsistent with the order of requests.
+    - **Naming:** Variable names should be consistent in order.
+
 
 ```js
 
